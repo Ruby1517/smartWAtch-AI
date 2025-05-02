@@ -1,0 +1,48 @@
+# Node.js (React frontend)
+client/node_modules/
+client/build/
+client/.env
+client/.DS_Store
+client/.eslintcache
+
+# Python (FastAPI backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+venv/
+.env
+instance/
+
+# Common OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Virtual environments (sometimes saved outside)
+env/
+ENV/
+venv/
+.venv/
+
+# Mac and Linux junk
+*.swp
+*.swo
+
+# Testing & coverage
+htmlcov/
+coverage.*
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
